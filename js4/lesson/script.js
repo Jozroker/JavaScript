@@ -1,4 +1,8 @@
 document.getElementById("btn").onclick = setText;
+document.getElementById("hideBtn").onclick = hideList;
+document.getElementById("selfhideBtn").onclick = function () {
+    this.style.display = "none"
+};
 
 function setText() {
     let text = document.getElementById("input").value;
@@ -8,4 +12,8 @@ function setText() {
     }
 
     document.getElementById("count").innerText = text.length
+}
+
+function hideList() {
+    document.getElementById("text").style.display = "none";
 }
