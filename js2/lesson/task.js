@@ -1,6 +1,6 @@
 //task 1
 let products = [1, 5, 2, 3];
-console.log(products.slice(products.length-1));
+console.log(products.slice(products.length - 1));
 console.log("\n");
 
 //task2
@@ -60,7 +60,7 @@ function camelize(str) {
 
 //task 7
 let yearsOfStuding = [2016, 2017, 2018, 2019];
-let facultysNames = ["philosofy", "computer science", "math faculty", "computer engineer", "design faculty"]
+let facultysNames = ["philosofy", "computer science", "math faculty", "computer engineer", "design faculty"];
 let students = [];
 generateSudent(10);
 console.log(students);
