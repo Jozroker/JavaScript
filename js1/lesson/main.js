@@ -56,6 +56,7 @@ employeeSalaries = {
 };
 console.log(getSum(employeeSalaries));
 console.log("\n");
+
 function getSum(obj) {
     let sum = 0;
     for (let qty in obj) {
@@ -65,9 +66,9 @@ function getSum(obj) {
 }
 
 //task 5
-console.log(calculate(1,2, "/"));
-console.log(calculate(2,0, "/"));
-console.log(calculate(1.5,2, "/"));
+console.log(calculate(1, 2, "/"));
+console.log(calculate(2, 0, "/"));
+console.log(calculate(1.5, 2, "/"));
 console.log("\n");
 
 function calculate(a, b, action) {
