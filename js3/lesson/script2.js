@@ -1,6 +1,7 @@
 class Robot {
 
-    constructor() {}
+    constructor() {
+    }
 
     work() {
         console.log("I'm Robot - I'm working")

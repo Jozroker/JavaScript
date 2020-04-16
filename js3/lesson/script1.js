@@ -1,7 +1,8 @@
 class makeBuffer {
     _bufer = "";
 
-    constructor() {}
+    constructor() {
+    }
 
     add(value) {
         this._bufer += value
